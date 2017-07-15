@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <ImageView
+            android:id="@+id/imageMenu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:src="@drawable/vel"
+            android:scaleType="fitStart"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true" />
+
+        <Button
+            android:id="@+id/zad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zad"
+            style="@android:style/Widget.Holo.Button.Toggle"
+            android:onClick="zad" />
+
+        <Button
+            android:id="@+id/pered"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/pered"
+            style="@android:style/Widget.Holo.Button.Toggle"
+            android:onClick="pered" />
+        <Button
+            android:id="@+id/cep"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/cep"
+            style="@android:style/Widget.Holo.Button.Toggle"
+            android:onClick="cep" />
+        <Button
+            android:id="@+id/tormoz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/tormoz"
+            style="@android:style/Widget.Holo.Button.Toggle"
+            android:onClick="tormoz" />
+        <Button
+            android:id="@+id/sis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/sis"
+            android:onClick="sis"
+            style="@android:style/Widget.Holo.Button.Toggle" />
+        <Button
+            android:id="@+id/ped"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/ped"
+            android:onClick="ped"
+            style="@android:style/Widget.Holo.Button.Toggle" />
+        <Button
+            android:id="@+id/dinamo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/din"
+            android:onClick="dinamo"
+            style="@android:style/Widget.Holo.Button.Toggle" />
+        <Button
+            android:id="@+id/tre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="tre"
+            android:text="@string/tre"
+            style="@android:style/Widget.Holo.Button.Toggle" />
+    </LinearLayout>
+</ScrollView>

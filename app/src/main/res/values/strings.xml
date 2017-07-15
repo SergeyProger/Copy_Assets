@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ремонт велосипеда</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu">Меню</string>
+    <string name="zoom">Увеличить</string>
+     <string name="previous">Назад</string>
+    <string name="next">Вперёд</string>
+    <string name="chat">Чат поддержки</string>
+    <string name="zad">Задний переключатель</string>
+    <string name="pered">Передний переключатель</string>
+    <string name="cep">Цепь</string>
+    <string name="tormoz">Тормоз</string>
+    <string name="sis">Система</string>
+    <string name="ped">Педали</string>
+    <string name="din">Динамо втулка</string>
+    <string name="tre">Трещётка</string>
+</resources>
